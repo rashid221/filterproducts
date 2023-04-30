@@ -14,10 +14,10 @@ code {
     monospace;
 }
 .cards-main{
- 
   display: flex;
    flex:3;
-  flex-direction: row;
+   height: 100vh;
+   flex-direction: row;
   flex-flow: wrap;
   justify-content: center;
 }
@@ -27,7 +27,7 @@ code {
   align-items: center;
   flex-direction: column;
   width: 15rem;
-  height: 15rem;
+  height: 19rem;
   padding: 20px;
   background-color: #fff;
   margin: 20px;
@@ -35,13 +35,23 @@ code {
   border-radius: 5px;
 
 }
+ul{
+  margin: 0;
+  padding: 0;
+}
 .li-hover{
   background-color:#9BA4B5;
-  padding:1rem;
-  box-shadow:0px 0px 4px 2px grey;
+  padding:0.5rem;
+  border-bottom: 1px solid white;
 }
 .li-hover:hover{
 background-color: bisque;
 color: black;
 cursor: pointer;
+}
+.span-rate{
+  background-color: green;
+  color:white;
+  border-radius: 5px;
+  padding: 2px 5px;
 }
